@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AskYodav2.ViewModels
+namespace AskYodav2.Services
 {
-    internal class MainView
+    internal class AiAssistant
     {
     }
 }
