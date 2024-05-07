@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AskYodav2.Configuration
 {
-    internal class ISettings
+    public interface ISettings
     {
+
+        public string AzureOpenAiEndPoint { get; }
+        public string AzureOpenAiKey { get; }
+
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AskYodav2.Enums
 {
-    internal class ChatMessageTypeEnum
+    public enum ChatMessageTypeEnum
     {
+        Inbound,
+        Outbound
     }
 }
